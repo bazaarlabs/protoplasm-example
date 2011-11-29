@@ -1,0 +1,21 @@
+PATH
+  remote: ../protoplasm
+  specs:
+    protoplasm-blocking-client (0.1.0)
+      beefcake (~> 0.3.7)
+    protoplasm-em-server (0.1.0)
+      beefcake (~> 0.3.7)
+      eventmachine
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    beefcake (0.3.7)
+    eventmachine (0.12.10)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  protoplasm-blocking-client!
+  protoplasm-em-server!
